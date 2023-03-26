@@ -12,9 +12,7 @@ import Homepage from "../Tasks/Task1/Homepage";
 import Task1 from "../Tasks/Task1/March21";
 import Task2 from "../Tasks/Task2";
 import Task3 from "../Tasks/Task3";
-import Task4 from "../Tasks/Task4";
-import Task5 from "../Tasks/Task5";
-// import Task1 from "../Tasks/Task1";
+import Signup from "../Tasks/Task3/Signup";
 
 const AppRoutes = () => {
   const location = useLocation();
@@ -32,9 +30,7 @@ const AppRoutes = () => {
           </Route>
         </Route>
         <Route path="task2" element={<Task2 />} />
-        <Route path="task3" element={<Task3 />} />
-        <Route path="task4" element={<Task4 />} />
-        <Route path="task5" element={<Task5 />} />
+        <Route path="task3" element={<Signup />} />
       </Route>
     </Routes>
   );
